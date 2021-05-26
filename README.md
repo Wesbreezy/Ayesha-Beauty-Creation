@@ -103,12 +103,41 @@ Read: "Water"
 totalExpense="productCosts"+"Creditors"+"Repairs"+"Electricity"+"Transport"+"Water" }
 
 
-productReports(Solved, solutionInProgress, Unsolved){
-Set: "problem", Solved, slutionInProgress
-Read: "problem"
+productReports(Solved, solutionInProgress, Unresolved){
+Set: Problem, Solved, solutionInProgress, Unresolved
+Read: "Problem"
 Read: "Solved"
 Read: "solutionInProgress"
-Read: "Unsolved" }
+Read: "Unresolved" }
+
+Solved(){
+Set: Problem, solved
+Read: "Problem"
+Read: "Solved"
+if(Problem==Solved)then
+Print "Problem has been resolved" 
+ENDif }
+
+solutionInProgress(){
+Set:Problem, solutionInProgress
+Read: "Problem"
+Read: "solutionInProgress"
+if(Problem==solutionInProgress)then
+Print "Problem is yet to be resloved"
+ENDif }
+
+Unresolved(){
+Set: Problem, Unresolved
+Read: Problem
+Read: Unresolved
+if( Problem==Unresolved)then
+Print "Problem remains unresolved"
+ENDif }
+
+
+
+
+
 
 
 
