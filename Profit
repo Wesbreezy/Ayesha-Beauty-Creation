@@ -1,1 +1,9 @@
-
+Profit(){
+Set: Sales, Expenses
+Read: "Sales", "Expenses"
+Profit="Sales"-"Expenses"
+if(Profit<"Expenses")
+Print "Profit Made"
+   else
+Print "Loss Made"
+ENDif }
