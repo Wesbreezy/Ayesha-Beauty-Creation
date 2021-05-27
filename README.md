@@ -1,4 +1,22 @@
 # Ayesha-Beauty-Creation
+
+Start
+AyeshaBeautyCreation; {
+}
+if (Already have an account?) {
+  Sign in;
+} else {
+  Sign up 
+}
+HomePage;
+if(Staff?) {
+ Enter Authentication;
+ Dashboard
+} else {;
+Customer;
+(CustomerDashboard)
+End
+
 Budget(budgetTotal){
 Set: Products, Price, budgetTotal, Capital
 Read: "Products"
