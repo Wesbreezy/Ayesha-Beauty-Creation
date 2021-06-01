@@ -17,6 +17,18 @@ Customer;
 (CustomerDashboard)
 End
 
+Start
+(Customer Dashboard)
+Go to Cart
+Cart;
+if(Items purchased?) {
+  Go to Sales department;
+  while(!confirm purchase?)
+    Read Order not received;
+} Redirect to Sales personnel{
+Print virtual receipt;
+end;
+
 Budget(budgetTotal){
 Set: Products, Price, budgetTotal, Capital
 Read: "Products"
