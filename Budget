@@ -1,0 +1,16 @@
+Budget(budgetTotal){
+Set: Products, Price, budgetTotal, Capital
+Read: "Products"
+Read: "Prices"
+Read: "budgetTotal" }
+
+budgetTotal(){
+Set: Products
+Read: "Products"
+Read: "Prices"
+Read: "Capital"
+budgetTotal="Products" * "Price"
+if(budgetTotal<=Capital)then
+Print "Budget valid"
+    else
+Print "Budget Invalid" }
