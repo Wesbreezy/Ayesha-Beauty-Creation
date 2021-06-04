@@ -1,0 +1,24 @@
+Attendance(workHours, breakHours, hoursWorked)
+Set: workedHours, breakHours, hoursWorked
+Read: workedHours
+Read: "breakHours"
+Read: "hoursWorked"
+Print "hoursWorked" }
+
+workHours(){
+Set: startHour, endHour
+Read: "startHour"
+Read: "endHour"
+workHours=endHour-startHour }
+
+breakHours(){
+Set: breakStart, breakEnd
+Read: "breakStart" 
+Read: "breakEnd"
+breakHours=breakEnd-breakStart }
+
+hoursWorked(){
+Set: breakHours, workHours
+Read: breakHours
+Read: workHours
+hoursWorked=workHours-breakHours }
