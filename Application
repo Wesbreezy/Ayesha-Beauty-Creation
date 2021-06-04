@@ -1,0 +1,26 @@
+Application(Age, yearsOFEXperience, Gender){
+Set: Age, yearsOFExperience, Gender
+Read: "Age"
+Read: "yearsOFExperience"
+Read: "Gender" }
+
+Age(){ 
+if("Age">18)then
+Read: yearsOFExperience
+    else
+Print "Underage"
+ENDif }
+
+yearsOFExperience(){
+if("yearsOFExperience"==1)then
+Read: "Gender"
+    else
+Print "Minimum 1 year experience required"
+ENDif }
+
+Gender(){
+if("Gender"=="Female")then
+Print "set in queu"
+   else
+Print "Only females accepted"
+ENDif }
