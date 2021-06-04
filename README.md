@@ -4,7 +4,7 @@ GROUP MEMEBERS AND THEIR ROLES
 - Rejoice Amutenya 221030670- Scratch, Python, C# Protype, flowcharts and pseudocodes
 - Wesley Tashiya 221140379- Pseudocodes for Profit, Budget, Attendance, Application
 - G.M Liswaniso 220125627- Flowcharts
-- Erastus Herman 221080597-
+- Erastus Herman 221080597- Query codes
 - Chloe
 
 ABOUT APPLICATION
