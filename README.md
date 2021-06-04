@@ -1,11 +1,11 @@
 Ayesha Beauty Creation Application Group 50
 
 GROUP MEMEBERS AND THEIR ROLES
-Rejoice Amutenya 221030670- Scratch, Python, C# Protype, flowcharts and pseudocodes
-Wesley Tashiya 221140379- Pseudocodes for Profit, Budget, Attendance, Application
-G.M Liswaniso 220125627- Flowcharts
-Erastus Herman 221080597-
-Chloe
+- Rejoice Amutenya 221030670- Scratch, Python, C# Protype, flowcharts and pseudocodes
+- Wesley Tashiya 221140379- Pseudocodes for Profit, Budget, Attendance, Application
+- G.M Liswaniso 220125627- Flowcharts
+- Erastus Herman 221080597-
+- Chloe
 
 ABOUT APPLICATION
 
