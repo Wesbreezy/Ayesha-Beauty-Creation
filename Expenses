@@ -1,0 +1,54 @@
+Expenses(totalExpense){
+Set: productCosts, Creditors, Repairs, Electricity, Transport, Water, totalExpense
+Read: "Creditors"
+Read: "productCosts"
+Read: "Expenses"
+Read: "Creditors" 
+Read: "Repairs" 
+Read: "Electricity" 
+Read: "Transport" 
+Read: "Water"
+Read: totalExpense
+Print "totalExpense" }
+
+totalExpense(){
+Set: productCosts, Creditors, Repairs, Electricity, Transport, Water
+Read: "productCosts"
+Read: "Creditors" 
+Read: "Repairs" 
+Read: "Electricity" 
+Read: "Transport" 
+Read: "Water"
+totalExpense="productCosts"+"Creditors"+"Repairs"+"Electricity"+"Transport"+"Water" }
+
+
+productReports(Solved, solutionInProgress, Unresolved){
+Set: Problem, Solved, solutionInProgress, Unresolved
+Read: "Problem"
+Read: "Solved"
+Read: "solutionInProgress"
+Read: "Unresolved" }
+
+Solved(){
+Set: Problem, solved
+Read: "Problem"
+Read: "Solved"
+if(Problem==Solved)then
+Print "Problem has been resolved" 
+ENDif }
+
+solutionInProgress(){
+Set:Problem, solutionInProgress
+Read: "Problem"
+Read: "solutionInProgress"
+if(Problem==solutionInProgress)then
+Print "Problem is yet to be resloved"
+ENDif }
+
+Unresolved(){
+Set: Problem, Unresolved
+Read: Problem
+Read: Unresolved
+if( Problem==Unresolved)then
+Print "Problem remains unresolved"
+ENDif }
