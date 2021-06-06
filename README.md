@@ -5,7 +5,7 @@ GROUP MEMEBERS AND THEIR ROLES
 - Wesley Tashiya 221140379- Pseudocodes for Profit, Budget, Attendance, Application
 - G.M Liswaniso 220125627- Flowcharts
 - Erastus Herman 221080597- Query codes
-- Chloe
+- Chloe Y Dausas 2170745553- Flowcharts and Pseudocode
 
 ABOUT APPLICATION
 
